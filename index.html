@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="menu">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+about me
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+my photos
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+my playlist
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+give me a like
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
