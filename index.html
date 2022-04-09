@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Or Fadlon - 316394717</title>
+    <title>Amos The Boxer</title>
+    <script type="text/javascript" src="/script.js"></script>
     <link rel="icon" type="image/x-icon" href="/resorces/icon.png" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Merienda+One"
     />
-    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    <div id="header">
-      <div id="logo"><img src="/resorces/logo.png" alt="Amos" /></div>
-      <div id="menu">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#photos">My Photos</a></li>
-        <li><a href="#playlist">My Playlist</a></li>
-        <li><a href="#like">Like</a></li>
-        <li><a href="#qrcoder">QR code</a></li>
-        <li><a href="#spa">Q&A</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+    <nav id="header-section" class="header-section">
+      <div id="header">
+        <div id="logo">
+          <img src="/resorces/logo.pngs" alt="Amos" />
+        </div>
+        <div id="menu">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#photos" class="nevigation-link">My Photos</a></li>
+            <li><a href="#playlist" class="nevigation-link">My Playlist</a></li>
+            <li><a href="#like" class="nevigation-link">Like</a></li>
+            <li><a href="#qrcoder" class="nevigation-link">QR code</a></li>
+            <li><a href="#spa" class="nevigation-link">Q&amp;A</a></li>
+            <li><a href="#contact" class="nevigation-link">Contact Me</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
+    <div id="header-section-mook" class="header-section"></div>
 
     <section id="about" class="section">
+      <h1>about me</h1>
+      <p>I am Boxer type dog with great aditude</p>
       <br />
       <br />
       <br />
@@ -41,13 +50,14 @@
       <br />
       <br />
       <br />
-      about me
       <br />
       <br />
       <br />
     </section>
 
     <section id="photos" class="section">
+      <h1>my photos</h1>
+      <p></p>
       <br />
       <br />
       <br />
@@ -64,13 +74,13 @@
       <br />
       <br />
       <br />
-      my photos
       <br />
       <br />
       <br />
     </section>
 
     <section id="playlist" class="section">
+      <h1>my playlist</h1>
       <br />
       <br />
       <br />
@@ -87,13 +97,13 @@
       <br />
       <br />
       <br />
-      my playlist
       <br />
       <br />
       <br />
     </section>
 
     <section id="like" class="section">
+      <h1>give me a like</h1>
       <br />
       <br />
       <br />
@@ -110,13 +120,13 @@
       <br />
       <br />
       <br />
-      give me a like
       <br />
       <br />
       <br />
     </section>
 
     <section id="qrcoder" class="section">
+      <h1>scan my code</h1>
       <br />
       <br />
       <br />
@@ -133,13 +143,13 @@
       <br />
       <br />
       <br />
-      scan my code
       <br />
       <br />
       <br />
     </section>
 
     <section id="spa" class="section">
+      <h1>and</h1>
       <br />
       <br />
       <br />
@@ -156,13 +166,13 @@
       <br />
       <br />
       <br />
-      ans
       <br />
       <br />
       <br />
     </section>
 
     <section id="contact" class="section">
+      <h1>contact me</h1>
       <br />
       <br />
       <br />
@@ -177,26 +187,30 @@
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      contact me
       <br />
       <br />
       <br />
     </section>
 
-    <script type="text/javascript">
-      $(function () {
-        $("#nav a").click(function (e) {
-          e.preventDefault();
-          $("html,body").scrollTo(this.hash, this.hash);
-        });
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).scroll(function() {
-         $('#menu').toggle($(this).scrollTop()>1000)
-      });​
-    </script>
+    <footer>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </footer>
   </body>
 </html>

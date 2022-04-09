@@ -3,6 +3,14 @@ body {
   font-family: "Merienda One";
 }
 
+#header-section {
+  position: fixed;
+  width: 100%;
+}
+.header-section {
+  height: 50px;
+}
+
 #header {
   display: flex;
   width: 100%;
@@ -13,7 +21,6 @@ body {
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
 }
 
@@ -36,15 +43,19 @@ body {
   width: 80%;
 }
 
-#menu li {
+#menu ul li {
   display: inline-block;
   padding: 0 10px;
 }
-#menu li a {
+#menu ul li a {
   color: red;
   text-decoration: none;
 }
 
-#menu li :hover {
+#menu ul li :hover {
+  color: white;
+}
+
+#menu li .navigation-highlight {
   color: white;
 }
