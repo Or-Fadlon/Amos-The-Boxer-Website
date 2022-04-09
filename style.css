@@ -1,7 +1,39 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+body {
+  background: rgb(100, 100, 100);
+  font-family: 'Merienda One';
+}
+
+#header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: rgb(0, 0, 0);
+}
+#logo {
+  display: flex;
+  justify-content: left;
+  align-self: flex-start;
+  width: 20%;
+}
+
+#logo img {
+	width: 50%;
+	height: 50%;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  width: 80%;
+}
+
+#menu li {
+  display: flex;
+  display: inline-block;
+  position: relative;
+}
+
+#menu li :hover {
+  background-color: white;
 }
