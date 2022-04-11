@@ -8,13 +8,13 @@ body {
   width: 100%;
 }
 .header-section {
-  height: 50px;
+  height: 80px;
 }
 
 #header {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 100%;
   background: rgb(0, 0, 0);
 }
 
@@ -38,9 +38,11 @@ body {
 
 #menu {
   display: flex;
+  align-items: center;
   justify-content: center;
   align-self: flex-start;
   width: 80%;
+  height: 100%;
 }
 
 #menu ul li {
@@ -58,4 +60,20 @@ body {
 
 #menu li .navigation-highlight {
   color: white;
+}
+
+.section {
+  background-color: bisque;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section h1 {
+  background-color: aqua;
+  text-align: center;
+}
+
+.section p {
+  margin-left: 3%;
+  margin-right: 3%;
 }

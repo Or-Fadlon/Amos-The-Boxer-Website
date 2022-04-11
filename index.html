@@ -212,5 +212,19 @@
       <br />
       <br />
     </footer>
+
+    <script type="text/javascript">
+      $(function () {
+        $("#nav a").click(function (e) {
+          e.preventDefault();
+          $("html,body").scrollTo(this.hash, this.hash);
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).scroll(function() {
+         $('#menu').toggle($(this).scrollTop()>1000)
+      });
+    </script>
   </body>
 </html>
