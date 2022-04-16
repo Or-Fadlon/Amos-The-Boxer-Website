@@ -3,6 +3,7 @@
   <head>
     <title>Amos The Boxer</title>
     <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./PhotoGalleryScript.js"></script>
     <link rel="icon" type="image/x-icon" href="./resorces/icon.png" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <link
@@ -25,7 +26,11 @@
         </div>
         <div id="menu">
           <ul>
-            <li><a href="#about" class="nevigation-link navigation-highlight">About Me</a></li>
+            <li>
+              <a href="#about" class="nevigation-link navigation-highlight"
+                >About Me</a
+              >
+            </li>
             <li><a href="#photos" class="nevigation-link">My Photos</a></li>
             <li><a href="#playlist" class="nevigation-link">My Playlist</a></li>
             <li><a href="#like" class="nevigation-link">Like</a></li>
@@ -59,28 +64,122 @@
       </div>
     </section>
 
+    <div id="photo-gallery">
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <!-- Full-width images with number text -->
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="./resorces/Gallery/1.jpeg" class="photo-frame" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="./resorces/Gallery/2.jpeg" class="photo-frame" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="./resorces/Gallery/3.jpeg" class="photo-frame" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="./resorces/Gallery/4.jpeg" class="photo-frame" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="./resorces/Gallery/5.jpeg" class="photo-frame" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="./resorces/Gallery/6.jpeg" class="photo-frame" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Image text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section id="photos" class="section">
       <h1>my photos</h1>
-      <div></div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div>
+        <div class="container">
+          <!-- Thumbnail images -->
+          <div class="row">
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="./resorces/Gallery/1.jpeg"
+                style="width: 100%"
+                onclick="openNav(1)"
+                alt="Photo 1"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="./resorces/Gallery/2.jpeg"
+                style="width: 100%"
+                onclick="openNav(2)"
+                alt="Photo 2"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="./resorces/Gallery/3.jpeg"
+                style="width: 100%"
+                onclick="openNav(3)"
+                alt="Photo 3"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="./resorces/Gallery/4.jpeg"
+                style="width: 100%"
+                onclick="openNav(4)"
+                alt="Photo 4"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="./resorces/Gallery/5.jpeg"
+                style="width: 100%"
+                onclick="openNav(5)"
+                alt="Photo 5"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="./resorces/Gallery/6.jpeg"
+                style="width: 100%"
+                onclick="openNav(6)"
+                alt="Photo 6"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="playlist" class="section">
