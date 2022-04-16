@@ -66,6 +66,7 @@ body {
   background-color: bisque;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 0 0 1.5em 0;
 }
 
 .section h1 {
@@ -73,7 +74,12 @@ body {
   text-align: center;
 }
 
-.section p {
+.section div {
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.section iframe {
+  display: block;
+  margin: 0 auto;
 }
