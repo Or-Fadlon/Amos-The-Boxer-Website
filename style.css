@@ -1,10 +1,17 @@
 :root {
   --header-height: 80px;
   --main-color: rgb(100, 100, 100);
+  --color-colar: #012f75;
+  --color-colar-title: #006799;
+  --color-amos-body-1: #683e0e;
+  --color-amos-body-2: #cf995d;
+  --color-amos-body-3: #cd9f70;
+  --color-amos-body-4: #edf7f9;
+  --color-highlight-header-item: white;
 }
 
 body {
-  background: rgb(100, 100, 100);
+  background: var(--color-amos-body-4);
   font-family: "Merienda One";
 }
 
@@ -26,7 +33,7 @@ body {
   display: flex;
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0);
+  background: var(--color-colar);
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -61,20 +68,20 @@ body {
   padding: 0 10px;
 }
 #menu ul li a {
-  color: red;
+  color: var(--color-amos-body-3);
   text-decoration: none;
 }
 
 #menu ul li :hover {
-  color: white;
+  color: var(--color-highlight-header-item);
 }
 
 #menu li .navigation-highlight {
-  color: white;
+  color: var(--color-highlight-header-item);
 }
 
 .section {
-  background-color: bisque;
+  background-color: var(--color-highlight-header-item);
   margin-left: 10%;
   margin-right: 10%;
   padding: 0 0 1.5em 0;
@@ -82,7 +89,9 @@ body {
 }
 
 .section h1 {
-  background-color: aqua;
+  background-color: var(--color-colar-title);
+  color: var(--color-amos-body-2);
+  padding: 10px 0px;
   text-align: center;
 }
 
@@ -218,7 +227,7 @@ body {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 150px;
   color: #818181;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
