@@ -83,3 +83,8 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.section .fb-like {
+  display: block;
+  text-align: center;
+}
