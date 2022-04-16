@@ -50,21 +50,6 @@
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     </section>
 
@@ -137,26 +122,23 @@
 
     <section id="spa" class="section">
       <h1>and</h1>
-      <div></div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </section>
 
     <section id="contact" class="section">
@@ -182,6 +164,14 @@
             placeholder="Israeli"
           />
           <br />
+          <label for="phone" class="lbl">Phone:</label>
+          <input
+            type="tel"
+            name="phone"
+            required="true"
+            pattern="05[0-9]{8}"
+            placeholder="0501234567"
+          />
           <label for="email" class="lbl">Email:</label>
           <input
             type="email"
@@ -224,9 +214,9 @@
       <br />
     </footer>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       $(function () {
-        $("#nav a").click(function (e) {
+        $("#menu ul li a").click(function (e) {
           e.preventDefault();
           $("html,body").scrollTo(this.hash, this.hash);
         });
@@ -236,6 +226,6 @@
       $(document).scroll(function () {
         $("#menu").toggle($(this).scrollTop() > 1000);
       });
-    </script>
+    </script> -->
   </body>
 </html>
