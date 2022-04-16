@@ -150,43 +150,33 @@
           style="text-align: center"
         >
           <label for="fname" class="lbl">First Name:</label>
-          <input
-            type="text"
-            name="fname"
-            required="true"
-            placeholder="Israel"
-          />
+          <input type="text" name="fname" placeholder="Israel" required />
           <label for="lname" class="lbl">Last Name:</label>
-          <input
-            type="text"
-            name="lname"
-            required="true"
-            placeholder="Israeli"
-          />
+          <input type="text" name="lname" placeholder="Israeli" required />
           <br />
           <label for="phone" class="lbl">Phone:</label>
           <input
             type="tel"
             name="phone"
-            required="true"
-            pattern="05[0-9]{8}"
             placeholder="0501234567"
+            pattern="05[0-9]{8}"
+            required
           />
           <label for="email" class="lbl">Email:</label>
           <input
             type="email"
             name="email"
-            required="true"
             placeholder="Israel.Israeli@Israel.co.il"
+            required
           />
           <br /><br />
           <textarea
-            name="text"
-            id="textarea"
-            placeholder="Let me know more about you and how can I reach you :)"
+            name="message"
             rows="10"
             cols="100"
-            required="true"
+            placeholder="Let me know more about you and how can I reach you :)"
+            class="form-textarea"
+            required
           ></textarea>
           <br />
           <button type="submit">Send</button>
