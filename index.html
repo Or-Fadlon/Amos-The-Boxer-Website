@@ -18,7 +18,16 @@
       nonce="2bFHjQGe"
     ></script>
     <!-- Emoji -->
-    <script src="https://cdn.tiny.cloud/1/ig12srfpqmpl9q1mqyh2c625bnczw7f4p6ye6nusvmrq9tq2/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/emojione/assets/3.1/sprites/emojione-sprite-32.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
   </head>
   <body>
     <nav id="header-section" class="header-section">
@@ -47,7 +56,7 @@
 
     <section id="about" class="section">
       <h1>about me</h1>
-      <div>
+      <div class="place-holder">
         <p>Hello everyone!</p>
         <p>
           My name is Amos and I am a Boxer type dog with great aditude!<br />
@@ -140,7 +149,7 @@
 
     <section id="photos" class="section">
       <h1>my photos</h1>
-      <div>
+      <div class="place-holder">
         <div class="container">
           <!-- Thumbnail images -->
           <div class="row">
@@ -259,7 +268,7 @@
 
     <section id="playlist" class="section">
       <h1>my playlist</h1>
-      <div>
+      <div class="place-holder youtube">
         <iframe
           width="711"
           height="400"
@@ -274,7 +283,7 @@
 
     <section id="like" class="section">
       <h1>give me a like</h1>
-      <div>
+      <div class="place-holder">
         <br />
         <br />
         <br />
@@ -299,7 +308,7 @@
 
     <section id="qrcoder" class="section">
       <h1>scan my code</h1>
-      <div>
+      <div class="place-holder">
         <img
           class="qr_image"
           width="280"
@@ -312,7 +321,7 @@
 
     <section id="spa" class="section">
       <h1>Q&A</h1>
-      <div>
+      <div class="place-holder">
         <br />
         <br />
         <br />
@@ -333,9 +342,10 @@
 
     <section id="contact" class="section">
       <h1>contact me</h1>
-      <div>
+      <div class="place-holder">
         <br />
         <form
+          id="mail-form"
           action="https://formsubmit.co/or5690@gmail.com"
           method="POST"
           style="text-align: center"
@@ -364,13 +374,14 @@
           <textarea
             id="message"
             name="message"
-            rows="10"
-            cols="100"
             placeholder="Let me know more about you and how can I reach you :)"
-            class="form-textarea"
             required
+            class="form-textarea"
           ></textarea>
           <br />
+          <script>
+            $("#message").emojioneArea({});
+          </script>
           <button type="submit">Submit Form</button>
         </form>
         <br />
@@ -397,29 +408,5 @@
       <br />
       <br />
     </footer>
-
-    <script>
-      tinymce.init({
-        selector: "#message",
-        plugins: "emoticons",
-        toolbar: "emoticons",
-        toolbar_location: "bottom",
-        menubar: false
-      });
-    </script>
-
-    <!-- <script type="text/javascript">
-      $(function () {
-        $("#menu ul li a").click(function (e) {
-          e.preventDefault();
-          $("html,body").scrollTo(this.hash, this.hash);
-        });
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).scroll(function () {
-        $("#menu").toggle($(this).scrollTop() > 1000);
-      });
-    </script> -->
   </body>
 </html>

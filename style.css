@@ -99,12 +99,12 @@ body {
   text-align: center;
 }
 
-.section div {
+.section .place-holder {
   margin-left: 3%;
   margin-right: 3%;
 }
 
-.section iframe {
+.section .youtube iframe {
   display: block;
   margin: 0 auto;
 }
@@ -116,6 +116,12 @@ body {
 .section .qr_image {
   display: block;
   margin: 0 auto;
+}
+
+#mail-form input {
+}
+
+.form-textarea {
 }
 
 /* Photo Gallery */
