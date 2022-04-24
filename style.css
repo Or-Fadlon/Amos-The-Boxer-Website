@@ -60,9 +60,9 @@ body {
 
 #logo img {
   width: 75%;
-  border-radius: 100px;
+  border-radius: 300px;
   border: var(--color-colar);
-  border-style: groove;
+  border-style: solid;
 }
 
 #menu {
@@ -126,7 +126,7 @@ body {
 }
 
 .table-view{
-  
+
 }
 
 /* Photo Gallery */
