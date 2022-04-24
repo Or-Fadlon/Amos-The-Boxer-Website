@@ -2,6 +2,7 @@
 ## Student Data
 - Name: Orel Fadlon
 - ID: 316394717
+- GitHub user name: Or-Fadlon
 - Mail: fadlonor@post.bgu.ac.il
 - Website address: [https://web-development-environments-2022.github.io/316394717/](https://web-development-environments-2022.github.io/316394717/)
 
