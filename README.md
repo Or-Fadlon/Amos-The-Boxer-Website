@@ -3,7 +3,7 @@
 - Name: Or (Orel) Fadlon
 - GitHub user name: Or-Fadlon
 - Mail: fadlonor@post.bgu.ac.il
-- Website address: [https://web-development-environments-2022.github.io/316394717/](https://web-development-environments-2022.github.io/316394717/)
+- Website address: [Click the link](https://or-fadlon.github.io/Amos-The-Boxer-Website/)
 
 ## Summery
 This website is part of the "Web Development Environments" I took in my bachelor's degree.
